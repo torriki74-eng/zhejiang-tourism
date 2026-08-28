@@ -57,7 +57,7 @@ export const FindSection: React.FC<FindSectionProps> = ({ onOpenExplore }) => {
         data-element="building"
         title="Jiangnan Architecture"
       >
-        <img src="/assets/elements/building-1.svg" alt="Jiangnan architecture" />
+        <img src="/assets/elements/building" alt="Jiangnan architecture" />
       </div>
 
       {/* 2. Food / Rice - Center Left (overlapping below building) */}

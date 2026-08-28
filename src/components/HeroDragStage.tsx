@@ -25,7 +25,7 @@ export const HeroDragStage: React.FC = () => {
     {
       id: 'building',
       name: 'Jiangnan Architecture',
-      src: '/assets/elements/building-1.svg',
+      src: '/assets/elements/building.svg',
       alt: 'Jiangnan building',
       x: 0,
       y: 0,
@@ -38,7 +38,7 @@ export const HeroDragStage: React.FC = () => {
     {
       id: 'tea',
       name: 'Tea Culture',
-      src: '/assets/elements/tea-1.svg',
+      src: '/assets/elements/tea.svg',
       alt: 'Tea leaves',
       x: 0,
       y: 0,
@@ -51,7 +51,7 @@ export const HeroDragStage: React.FC = () => {
     {
       id: 'lake',
       name: 'Water & Lake',
-      src: '/assets/elements/lake-1.svg',
+      src: '/assets/elements/lake.svg',
       alt: 'Lake',
       x: 0,
       y: 0,
@@ -64,7 +64,7 @@ export const HeroDragStage: React.FC = () => {
     {
       id: 'mountain',
       name: 'Mountain',
-      src: '/assets/elements/mountain-1.svg',
+      src: '/assets/elements/mountain.svg',
       alt: 'Mountain',
       x: 0,
       y: 0,
