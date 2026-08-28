@@ -1,0 +1,124 @@
+@import "tailwindcss";
+
+:root {
+  --paper: #ffffff;
+  --ink: #3c444a;
+  --ink-subtle: #505960;
+  --lake: #72a7d6;
+  --mountain: #749d94;
+  --leaf: #92aa83;
+  --tea: #6fa99e;
+  --stone: #acaead;
+  --roof: #586168;
+  --rice: #b48570;
+  --line: #bbb9b1;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  color: var(--ink);
+  font-family: 'Jura', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: #faf9f7;
+  background-image: url('/assets/elements/background%20ass.svg');
+  background-repeat: repeat-y;
+  background-position: top center;
+  background-size: 100% auto;
+  position: relative;
+  min-height: 100vh;
+}
+
+.site {
+  position: relative;
+  z-index: 2;
+  overflow-x: hidden;
+}
+
+.font-kaisei {
+  font-family: 'Kaisei Decol', 'Noto Serif SC', Georgia, serif;
+}
+
+.font-jura {
+  font-family: 'Jura', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* Draggable elements styles */
+.draggable {
+  position: absolute;
+  border: 0;
+  padding: 0;
+  background: transparent;
+  cursor: grab;
+  touch-action: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  pointer-events: auto;
+  transition: transform 0.18s cubic-bezier(0.2, 0.9, 0.3, 1), filter 0.2s ease;
+}
+
+.draggable:hover {
+  transform: scale(1.03) rotate(-0.8deg);
+  filter: drop-shadow(4px 8px 12px rgba(60, 60, 55, 0.2));
+}
+
+.draggable:active, .draggable.is-dragging {
+  cursor: grabbing;
+  transform: scale(1.06) rotate(1deg);
+  filter: drop-shadow(8px 16px 22px rgba(60, 60, 55, 0.3));
+}
+
+.draggable img, .draggable svg {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  pointer-events: none;
+}
+
+.lower-piece {
+  position: absolute;
+  border: 0;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  transition: transform 0.25s ease, filter 0.25s ease;
+}
+
+.lower-piece img, .lower-piece svg {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.lower-piece:hover {
+  transform: scale(1.08) rotate(-1deg);
+  filter: drop-shadow(0 10px 20px rgba(60, 68, 74, 0.18));
+}
+
+.sentence {
+  transition: color 0.25s ease;
+  cursor: default;
+}
+
+.sentence:hover {
+  color: var(--hover-color, #72a7d6);
+}
+
+.description p {
+  margin: 0;
+  opacity: 1;
+  transition: opacity 0.35s ease, transform 0.35s ease;
+}
+
+.description.switch p {
+  opacity: 0;
+  transform: translateY(8px);
+}

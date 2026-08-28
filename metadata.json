@@ -1,0 +1,6 @@
+{
+  "name": "Zhejiang Travel",
+  "description": "An interactive cultural travel experience showcasing Zhejiang's landscapes, Jiangnan architecture, and heritage.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

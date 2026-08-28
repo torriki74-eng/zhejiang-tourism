@@ -1,0 +1,36 @@
+<svg viewBox="0 0 200 700" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <!-- Hand-drawn Asian Grid / Calligraphy Measurement Marks (Right) -->
+  <g stroke="#BBB9B1" stroke-width="1.2" opacity="0.75">
+    <!-- Vertical guide lines -->
+    <path d="M40 35 C39 175 41 335 40 495 C39 575 42 645 40 675"/>
+    <path d="M80 15 C82 165 79 325 80 485 C81 565 78 635 80 680" stroke-dasharray="8 4"/>
+    <path d="M120 30 C118 180 122 340 120 500 C119 580 121 650 120 670"/>
+    <path d="M160 20 C162 160 158 320 160 480 C161 560 159 640 160 680" stroke-dasharray="2 3"/>
+
+    <!-- Horizontal cross lines -->
+    <path d="M20 70 L180 70"/>
+    <path d="M25 140 L175 140" stroke-dasharray="6 3"/>
+    <path d="M20 210 L180 210"/>
+    <path d="M25 280 L175 280" stroke-dasharray="4 4"/>
+    <path d="M20 350 L180 350"/>
+    <path d="M25 420 L175 420" stroke-dasharray="6 3"/>
+    <path d="M20 490 L180 490"/>
+    <path d="M25 560 L175 560" stroke-dasharray="4 4"/>
+    <path d="M20 630 L180 630"/>
+
+    <!-- Plus ticks -->
+    <g stroke="#92979B" stroke-width="1.5">
+      <path d="M156 70 L164 70 M160 66 L160 74"/>
+      <path d="M116 210 L124 210 M120 206 L120 214"/>
+      <path d="M76 350 L84 350 M80 346 L80 354"/>
+      <path d="M36 490 L44 490 M40 486 L40 494"/>
+      <path d="M116 630 L124 630 M120 626 L120 634"/>
+    </g>
+
+    <!-- Small ink dots / stamps -->
+    <circle cx="160" cy="140" r="2.5" fill="#BBB9B1"/>
+    <circle cx="40" cy="280" r="2.5" fill="#BBB9B1"/>
+    <circle cx="120" cy="420" r="2.5" fill="#BBB9B1"/>
+    <circle cx="80" cy="560" r="2.5" fill="#BBB9B1"/>
+  </g>
+</svg>

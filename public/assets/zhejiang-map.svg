@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 560" fill="none">
+  <!-- Stylized Elegant Ink-line Map of Zhejiang Province -->
+  <defs>
+    <linearGradient id="mapGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#faf8f1"/>
+      <stop offset="100%" stop-color="#f0ece1"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="2" dy="6" stdDeviation="8" flood-color="#596167" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+
+  <!-- Province Landmass Outline -->
+  <path d="M 270 50 C 330 45 410 70 430 110 C 450 140 400 170 440 210 C 470 235 480 280 430 320 C 450 370 420 440 370 480 C 310 510 240 510 180 460 C 140 420 120 370 150 320 C 120 280 150 210 180 170 C 170 120 210 70 270 50 Z" fill="url(#mapGrad)" stroke="#596167" stroke-width="2.5" filter="url(#shadow)"/>
+
+  <!-- Coastline & Zhoushan Archipelago Islands -->
+  <circle cx="480" cy="160" r="14" fill="#faf8f1" stroke="#596167" stroke-width="2"/>
+  <circle cx="510" cy="180" r="8" fill="#faf8f1" stroke="#596167" stroke-width="1.8"/>
+  <circle cx="470" cy="205" r="9" fill="#faf8f1" stroke="#596167" stroke-width="1.8"/>
+  <circle cx="460" cy="350" r="11" fill="#faf8f1" stroke="#596167" stroke-width="1.8"/>
+  <circle cx="430" cy="410" r="8" fill="#faf8f1" stroke="#596167" stroke-width="1.8"/>
+
+  <!-- Waterways & Rivers (Qiantang River, Grand Canal, Taihu Basin) -->
+  <path d="M 230 120 Q 300 140 370 150 T 450 180" stroke="#72a7d6" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <path d="M 310 70 Q 315 130 330 190 T 310 320" stroke="#72a7d6" stroke-width="2" stroke-dasharray="4 4" stroke-linecap="round" fill="none" opacity="0.4"/>
+  <path d="M 200 240 Q 260 270 330 260 T 400 300" stroke="#72a7d6" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.5"/>
+
+  <!-- Regional subtle terrain marks -->
+  <path d="M 200 370 Q 240 340 280 370" stroke="#749d94" stroke-width="1.5" fill="none" opacity="0.4"/>
+  <path d="M 230 410 Q 270 380 310 410" stroke="#749d94" stroke-width="1.5" fill="none" opacity="0.4"/>
+  <path d="M 260 450 Q 290 430 330 450" stroke="#749d94" stroke-width="1.5" fill="none" opacity="0.4"/>
+
+  <!-- Major City Labels -->
+  <text x="320" y="165" font-family="'Kaisei Decol', serif" font-size="13" fill="#596167" opacity="0.7">Hangzhou</text>
+  <text x="375" y="115" font-family="'Kaisei Decol', serif" font-size="12" fill="#596167" opacity="0.6">Jiaxing</text>
+  <text x="290" y="95" font-family="'Kaisei Decol', serif" font-size="12" fill="#596167" opacity="0.6">Huzhou</text>
+  <text x="400" y="215" font-family="'Kaisei Decol', serif" font-size="12" fill="#596167" opacity="0.6">Ningbo</text>
+  <text x="325" y="235" font-family="'Kaisei Decol', serif" font-size="12" fill="#596167" opacity="0.6">Shaoxing</text>
+  <text x="325" y="445" font-family="'Kaisei Decol', serif" font-size="12" fill="#596167" opacity="0.6">Wenzhou</text>
+
+  <!-- Decorative Compass / Seal -->
+  <g transform="translate(130, 80) scale(0.8)">
+    <circle cx="20" cy="20" r="18" stroke="#596167" stroke-width="1" stroke-dasharray="2 2" opacity="0.5"/>
+    <line x1="20" y1="5" x2="20" y2="35" stroke="#596167" stroke-width="1" opacity="0.6"/>
+    <line x1="5" y1="20" x2="35" y2="20" stroke="#596167" stroke-width="1" opacity="0.6"/>
+    <text x="20" y="2" font-family="'Jura', sans-serif" font-size="9" fill="#596167" text-anchor="middle">N</text>
+  </g>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 560" width="100%" height="100%">
+  <!-- Building (Upper Right) -->
+  <g transform="translate(230, 20) scale(0.82)">
+    <!-- Lower walls -->
+    <path d="M 95 188 L 405 188 L 405 428 L 325 428 L 325 240 L 175 240 L 175 428 L 95 428 Z" fill="#b3b4be"/>
+    <!-- Door outline / border -->
+    <rect x="180" y="245" width="140" height="183" fill="#ffffff"/>
+    <!-- Door inner panel -->
+    <rect x="190" y="255" width="120" height="173" fill="#85706c"/>
+    <!-- Roof main body -->
+    <path d="M 90 85 L 25 130 L 75 188 L 425 188 L 475 130 L 410 85 L 390 105 L 380 95 L 120 95 L 110 105 Z" fill="#475155"/>
+    <!-- Roof lower bar -->
+    <rect x="85" y="138" width="330" height="42" fill="#475155"/>
+    <!-- Roof white cuts -->
+    <path d="M 115 125 L 70 140 L 80 143 L 122 128 Z" fill="#ffffff"/>
+    <path d="M 150 105 L 110 130 L 118 135 L 158 110 Z" fill="#ffffff"/>
+    <path d="M 335 110 L 350 135 L 342 138 L 328 112 Z" fill="#ffffff"/>
+    <path d="M 370 105 L 395 132 L 388 136 L 362 108 Z" fill="#ffffff"/>
+    <path d="M 100 144 L 400 144 L 400 152 L 100 152 Z" fill="#ffffff"/>
+  </g>
+
+  <!-- Bridge (Lower Foreground) -->
+  <g transform="translate(30, 240) scale(0.78)">
+    <!-- Stone arch bridge -->
+    <path d="M 190 40 L 250 50 L 360 48 L 470 51 L 505 40 L 520 50 L 590 150 L 695 285 L 670 290 L 640 255 L 510 260 L 505 240 L 190 240 L 185 260 L 5 260 L 35 240 L 80 160 L 175 50 Z" fill="#a8a8a8"/>
+    <!-- Arch cutout -->
+    <path d="M 188 260 C 200 170 300 130 350 130 C 400 130 500 170 508 260 Z" fill="#ffffff"/>
+    <!-- Top walkway highlight slit -->
+    <path d="M 175 75 L 105 165 L 115 170 L 180 85 L 250 68 L 360 65 L 485 70 L 485 78 L 360 72 L 250 75 Z" fill="#ffffff"/>
+    <!-- Arch inner highlight slits -->
+    <path d="M 168 235 C 190 155 270 120 335 118 L 335 125 C 275 127 200 160 180 238 Z" fill="#ffffff"/>
+    <path d="M 360 120 L 412 125 L 412 133 L 360 128 Z" fill="#ffffff"/>
+    <!-- Bottom right ramp slit -->
+    <path d="M 435 155 L 515 225 L 620 250 L 620 242 L 520 218 L 445 150 Z" fill="#ffffff"/>
+  </g>
+</svg>
