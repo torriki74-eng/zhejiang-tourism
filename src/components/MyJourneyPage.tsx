@@ -97,7 +97,7 @@ const INITIAL_COLLAGE_ITEMS: CollageItem[] = [
     id: 'photo-water-town',
     type: 'photo',
     title: 'Minghe Water Town',
-    imageSrc: '/assets/elements/4ESjJLjgso1WvpV.jpg',
+    imageSrc: 'assets/elements/4ESjJLjgso1WvpV.jpg',
     x: 180,
     y: 35,
     rotation: -4,
@@ -306,12 +306,12 @@ export const MyJourneyPage: React.FC<MyJourneyPageProps> = ({
             {/* Hand-crafted composite House + Bridge icon */}
             <div className="relative w-[72px] h-[58px] flex-shrink-0 flex items-center justify-center">
               <img
-                src="/assets/elements/building-1.svg"
+                src="assets/elements/building-1.svg"
                 alt="House"
                 className="w-[42px] h-[38px] object-contain absolute top-0 left-[16px] z-10 opacity-90"
               />
               <img
-                src="/assets/elements/bridge-1.svg"
+                src="assets/elements/bridge-1.svg"
                 alt="Bridge"
                 className="w-[58px] h-[32px] object-contain absolute bottom-0 left-0 z-0 opacity-80"
               />
@@ -587,12 +587,12 @@ export const MyJourneyPage: React.FC<MyJourneyPageProps> = ({
                     ) : item.stickerKey === 'water-village' || item.stickerKey === 'building-bridge' ? (
                       <div className="relative w-[190px] h-[160px] flex items-center justify-center">
                         <img
-                          src="/assets/elements/building-1.svg"
+                          src="assets/elements/building-1.svg"
                           alt="Jiangnan House"
                           className="w-[110px] h-[105px] object-contain absolute top-0 left-[40px] z-10 pointer-events-none"
                         />
                         <img
-                          src="/assets/elements/bridge-1.svg"
+                          src="assets/elements/bridge-1.svg"
                           alt="Arch Bridge"
                           className="w-[155px] h-[85px] object-contain absolute bottom-0 left-[18px] z-0 pointer-events-none"
                         />
@@ -600,12 +600,12 @@ export const MyJourneyPage: React.FC<MyJourneyPageProps> = ({
                     ) : item.stickerKey === 'tea-tasting' || item.stickerKey === 'mountain-food' ? (
                       <div className="relative w-[180px] h-[190px] flex items-center justify-center">
                         <img
-                          src="/assets/elements/mountain-1.svg"
+                          src="assets/elements/mountain-1.svg"
                           alt="Green Mountain"
                           className="w-[150px] h-[170px] object-contain absolute top-0 left-[20px] z-0 pointer-events-none"
                         />
                         <img
-                          src="/assets/elements/rice.svg"
+                          src="assets/elements/rice.svg"
                           alt="Warm Rice Bowl"
                           className="w-[95px] h-[95px] object-contain absolute bottom-[12px] right-[10px] z-10 pointer-events-none"
                         />
@@ -613,12 +613,12 @@ export const MyJourneyPage: React.FC<MyJourneyPageProps> = ({
                     ) : (
                       <div className="relative w-[210px] h-[150px] flex items-center justify-center">
                         <img
-                          src="/assets/elements/bridge-1.svg"
+                          src="assets/elements/bridge-1.svg"
                           alt="Arch Bridge"
                           className="w-[170px] h-[95px] object-contain absolute top-0 left-[20px] z-10 pointer-events-none"
                         />
                         <img
-                          src="/assets/elements/lake-1.svg"
+                          src="assets/elements/lake-1.svg"
                           alt="Blue Wave"
                           className="w-[175px] h-[90px] object-contain absolute bottom-0 left-[18px] z-0 pointer-events-none"
                         />

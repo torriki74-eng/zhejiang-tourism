@@ -27,7 +27,7 @@ body {
   color: var(--ink);
   font-family: 'Jura', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   background-color: #faf9f7;
-  background-image: url('/assets/elements/background%20ass.svg');
+  background-image: url('assets/elements/background%20ass.svg');
   background-repeat: repeat-y;
   background-position: top center;
   background-size: 100% auto;
