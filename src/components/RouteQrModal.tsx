@@ -27,8 +27,12 @@ export const RouteQrModal: React.FC<RouteQrModalProps> = ({
 
   // Prepare a rich payload string for the QR code
   // This can be a web preview URL or structured itinerary payload
-  const currentOrigin = typeof window !== 'undefined' ? window.location.origin : 'https://curiouschina.travel';
-  const qrDataUrl = `${currentOrigin}?theme=${encodeURIComponent(themeName)}&places=${places.map(p => encodeURIComponent(p.name)).join(',')}`;
+ // 加上 window.location.pathname，确保 GitHub Pages 子路径（如 /my-repo/）不会被丢掉
+const currentBaseUrl = typeof window !== 'undefined'
+  ? `${window.location.origin}${window.location.pathname}`
+  : 'https://curiouschina.travel/';
+
+const qrDataUrl = `${currentBaseUrl}?theme=${encodeURIComponent(themeName)}&places=${places.map(p => encodeURIComponent(p.name)).join(',')}`;
 
   const itineraryText = `[CURIOUS CHINA] Zhejiang Travel Route: ${themeName}\n\n` +
     places.map((p, i) => `${i + 1}. ${p.name} (${p.city})\n   - ${p.text}`).join('\n\n') +
