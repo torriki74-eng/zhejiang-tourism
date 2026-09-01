@@ -57,7 +57,7 @@ export const FindSection: React.FC<FindSectionProps> = ({ onOpenExplore }) => {
         data-element="building"
         title="Jiangnan Architecture"
       >
-        <img src="assets/elements/building.svg" alt="Jiangnan architecture" />
+        <img src="/assets/elements/building-1.svg" alt="Jiangnan architecture" />
       </div>
 
       {/* 2. Food / Rice - Center Left (overlapping below building) */}
@@ -68,7 +68,7 @@ export const FindSection: React.FC<FindSectionProps> = ({ onOpenExplore }) => {
         data-element="food"
         title="Rice Food Culture"
       >
-        <img src="assets/elements/rice.svg" alt="Rice food culture" />
+        <img src="/assets/elements/rice.svg" alt="Rice food culture" />
       </div>
 
       {/* 3. Bridge - Bottom Left */}
@@ -79,7 +79,7 @@ export const FindSection: React.FC<FindSectionProps> = ({ onOpenExplore }) => {
         data-element="bridge"
         title="Arch Bridge"
       >
-        <img src="assets/elements/bridge.svg" alt="Arch bridge" />
+        <img src="/assets/elements/bridge-1.svg" alt="Arch bridge" />
       </div>
 
       {/* 4. Mountain - Top Right */}
@@ -90,7 +90,7 @@ export const FindSection: React.FC<FindSectionProps> = ({ onOpenExplore }) => {
         data-element="mountain"
         title="Mountain"
       >
-        <img src="assets/elements/mountain.svg" alt="Mountain" />
+        <img src="/assets/elements/mountain-1.svg" alt="Mountain" />
       </div>
 
       {/* 5. Lake - Center Right (overlapping below mountain) */}
@@ -101,7 +101,7 @@ export const FindSection: React.FC<FindSectionProps> = ({ onOpenExplore }) => {
         data-element="lake"
         title="Water"
       >
-        <img src="assets/elements/lake.svg" alt="Water" />
+        <img src="/assets/elements/lake-1.svg" alt="Water" />
       </div>
 
       {/* 6. Tea - Bottom Right */}
@@ -112,7 +112,7 @@ export const FindSection: React.FC<FindSectionProps> = ({ onOpenExplore }) => {
         data-element="tea"
         title="Tea Culture"
       >
-        <img src="assets/elements/tea.svg" alt="Tea culture" />
+        <img src="/assets/elements/tea-1.svg" alt="Tea culture" />
       </div>
 
       {/* Center Narrative Core */}

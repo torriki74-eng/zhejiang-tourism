@@ -6,7 +6,8 @@ interface NavigationProps {
   onNavigateHome: () => void;
   onNavigateExplore: () => void;
   onNavigateJourney: () => void;
-  onOpenSearch: () => void;
+  isSearchOpen?: boolean;
+  onToggleSearch: () => void;
 }
 
 export const Navigation: React.FC<NavigationProps> = ({
@@ -14,7 +15,8 @@ export const Navigation: React.FC<NavigationProps> = ({
   onNavigateHome,
   onNavigateExplore,
   onNavigateJourney,
-  onOpenSearch
+  isSearchOpen = false,
+  onToggleSearch
 }) => {
   const [isVisible, setIsVisible] = useState(true);
   const lastScrollY = useRef(0);
@@ -28,7 +30,9 @@ export const Navigation: React.FC<NavigationProps> = ({
         setIsVisible(true);
       } else if (currentScrollY > lastScrollY.current && currentScrollY > 70) {
         // Scrolling downwards -> hide navigation
-        setIsVisible(false);
+        if (!isSearchOpen) {
+          setIsVisible(false);
+        }
       } else if (currentScrollY < lastScrollY.current) {
         // Scrolling upwards -> show navigation
         setIsVisible(true);
@@ -39,7 +43,7 @@ export const Navigation: React.FC<NavigationProps> = ({
 
     window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  }, [isSearchOpen]);
 
   return (
     <header
@@ -102,10 +106,10 @@ export const Navigation: React.FC<NavigationProps> = ({
         </div>
 
         <div
-          onClick={onOpenSearch}
+          onClick={onToggleSearch}
           role="button"
           tabIndex={0}
-          onKeyDown={(e) => e.key === 'Enter' && onOpenSearch()}
+          onKeyDown={(e) => e.key === 'Enter' && onToggleSearch()}
           className="text-right flex items-center justify-end gap-1.5 cursor-pointer max-md:hidden text-[#3c444a] font-jura text-[15px] font-semibold tracking-[0.02em] hover:opacity-70 transition-opacity"
         >
           <Search className="w-4 h-4 text-[#3c444a] stroke-[2.2]" />
