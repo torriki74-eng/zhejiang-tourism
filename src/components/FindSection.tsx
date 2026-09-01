@@ -90,7 +90,7 @@ export const FindSection: React.FC<FindSectionProps> = ({ onOpenExplore }) => {
         data-element="mountain"
         title="Mountain"
       >
-        <img src=".../assets/elements/mountain-1.svg" alt="Mountain" />
+        <img src="./assets/elements/mountain-1.svg" alt="Mountain" />
       </div>
 
       {/* 5. Lake - Center Right (overlapping below mountain) */}
