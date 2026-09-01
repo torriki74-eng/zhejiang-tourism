@@ -84,7 +84,7 @@ export const StorySection: React.FC = () => {
         animate={isInView ? { opacity: 0.85, x: 0 } : { opacity: 0, x: -24 }}
         transition={{ duration: 0.8, ease: 'easeOut' }}
         className="w-[280px] max-h-[960px] h-auto object-contain self-center justify-self-start ml-0 pl-0 max-md:absolute max-md:w-[130px] max-md:max-h-[600px] max-md:left-[-15px] max-md:top-[15%] pointer-events-none"
-        src="/assets/elements/grid 2.png"
+        src="./assets/elements/grid 2.png"
         alt="Hand-drawn cultural grid guides left"
       />
 
@@ -165,7 +165,7 @@ export const StorySection: React.FC = () => {
         animate={isInView ? { opacity: 0.85, x: 0 } : { opacity: 0, x: 24 }}
         transition={{ duration: 0.8, ease: 'easeOut' }}
         className="w-[280px] max-h-[960px] h-auto object-contain self-center justify-self-end mr-0 pr-0 max-md:absolute max-md:w-[130px] max-md:max-h-[600px] max-md:left-auto max-md:right-[-15px] max-md:bottom-[13%] pointer-events-none"
-        src="/assets/elements/grid 3.png"
+        src="./assets/elements/grid 3.png"
         alt="Hand-drawn cultural grid guides right"
       />
     </section>
