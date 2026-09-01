@@ -7,7 +7,7 @@ export const ELEMENTS_DATA: Record<ElementKey, ElementData> = {
     chineseName: '茶道与龙井',
     tagline: 'From leaf to cup across misty green hillsides',
     description: 'Tea has shaped Zhejiang’s hillsides, rituals and daily rhythm for centuries. Follow its route from leaf to cup.',
-    iconSrc: '/assets/elements/tea-1.svg',
+    iconSrc: 'assets/elements/tea-1.svg',
     themeColor: '#6fa99e',
     regions: ['Hangzhou (Longjing)', 'Huzhou (Anji White Tea)', 'Jinhua (Wuyi Mountain)'],
     culturalHighlights: [
@@ -22,7 +22,7 @@ export const ELEMENTS_DATA: Record<ElementKey, ElementData> = {
     chineseName: '江南民居与飞檐',
     tagline: 'White walls, dark rooflines and quiet courtyards',
     description: 'White walls, dark rooflines and narrow lanes create a living architecture of water towns and villages.',
-    iconSrc: '/assets/elements/building-1.svg',
+    iconSrc: 'assets/elements/building-1.svg',
     themeColor: '#586168',
     regions: ['Shaoxing Old City', 'Wuzhen Water Town', 'Nanxun Historic District'],
     culturalHighlights: [
@@ -37,7 +37,7 @@ export const ELEMENTS_DATA: Record<ElementKey, ElementData> = {
     chineseName: '青峦叠嶂与竹海',
     tagline: 'Misty ridgelines and serene forest sanctuaries',
     description: 'Misty ridgelines and forest paths make Zhejiang’s mountains a place for movement, reflection and discovery.',
-    iconSrc: '/assets/elements/mountain-1.svg',
+    iconSrc: './assets/elements/mountain-1.svg',
     themeColor: '#749d94',
     regions: ['Moganshan (Deqing)', 'Yandang Mountains (Wenzhou)', 'Tiantai Mountain (Taizhou)'],
     culturalHighlights: [
@@ -52,7 +52,7 @@ export const ELEMENTS_DATA: Record<ElementKey, ElementData> = {
     chineseName: '湖波荡漾与水乡',
     tagline: 'Rippling lakes, canal networks and tranquil tides',
     description: 'Lakes, rivers and the coast carry stories, trade and everyday life across the landscape.',
-    iconSrc: '/assets/elements/lake-1.svg',
+    iconSrc: 'assets/elements/lake-1.svg',
     themeColor: '#72a7d6',
     regions: ['West Lake (Hangzhou)', 'Qiandao Lake (Thousand Islands)', 'East China Sea Archipelago (Zhoushan)'],
     culturalHighlights: [
@@ -67,7 +67,7 @@ export const ELEMENTS_DATA: Record<ElementKey, ElementData> = {
     chineseName: '石桥流水与乌篷',
     tagline: 'Centuries of crossings carved in weathered granite',
     description: 'Stone bridges cross Zhejiang’s waterways, connecting neighbourhoods, markets and generations.',
-    iconSrc: '/assets/elements/bridge-1.svg',
+    iconSrc: 'assets/elements/bridge-1.svg',
     themeColor: '#858b8f',
     regions: ['Shaoxing (800+ Ancient Bridges)', 'Tongxiang (Wuzhen Bridges)', 'Hangzhou (Gongchen Bridge)'],
     culturalHighlights: [
@@ -82,7 +82,7 @@ export const ELEMENTS_DATA: Record<ElementKey, ElementData> = {
     chineseName: '江南稻作与珍馐',
     tagline: 'Fresh river delicacies, fragrant rice and seasoned wine',
     description: 'Rice anchors a local food culture of seasonal ingredients, shared tables and regional flavours.',
-    iconSrc: '/assets/elements/rice.svg',
+    iconSrc: 'assets/elements/rice.svg',
     themeColor: '#b48570',
     regions: ['Jiaxing (Zongzi Culture)', 'Shaoxing (Yellow Rice Wine)', 'Hangzhou (Song Dynasty Cuisine)'],
     culturalHighlights: [
