@@ -103,7 +103,7 @@ const INITIAL_COLLAGE_ITEMS: CollageItem[] = [
     id: 'photo-water-town',
     type: 'photo',
     title: '',
-    imageSrc: '../assets/images/No exact combination match found.png',
+    imageSrc: './assets/images/No exact combination match found.png',
     x: 60,
     y: 15,
     rotation: -4,
@@ -495,7 +495,7 @@ export const MyJourneyPage: React.FC<MyJourneyPageProps> = ({
             <div
               className="absolute inset-0 pointer-events-none opacity-40 bg-repeat bg-center"
               style={{
-                backgroundImage: 'url(assets/grid.svg)',
+                backgroundImage: 'url(./grid.svg)',
                 backgroundSize: '850px 850px'
               }}
             />
