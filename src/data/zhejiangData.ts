@@ -37,7 +37,7 @@ export const ELEMENTS_DATA: Record<ElementKey, ElementData> = {
     chineseName: '青峦叠嶂与竹海',
     tagline: 'Misty ridgelines and serene forest sanctuaries',
     description: 'Misty ridgelines and forest paths make Zhejiang’s mountains a place for movement, reflection and discovery.',
-    iconSrc: './assets/elements/mountain-1.svg',
+    iconSrc: 'assets/elements/mountain-1.svg',
     themeColor: '#749d94',
     regions: ['Moganshan (Deqing)', 'Yandang Mountains (Wenzhou)', 'Tiantai Mountain (Taizhou)'],
     culturalHighlights: [
