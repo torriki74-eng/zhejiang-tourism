@@ -495,7 +495,7 @@ export const MyJourneyPage: React.FC<MyJourneyPageProps> = ({
             <div
               className="absolute inset-0 pointer-events-none opacity-40 bg-repeat bg-center"
               style={{
-                backgroundImage: 'url(/grid.svg)',
+                backgroundImage: 'url(assets/grid.svg)',
                 backgroundSize: '850px 850px'
               }}
             />
