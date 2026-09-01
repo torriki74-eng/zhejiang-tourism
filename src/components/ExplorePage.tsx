@@ -40,10 +40,10 @@ export const COMBO_THEMES: ExploreTheme[] = [
     colorLight: 'rgba(91, 138, 153, 0.07)',
     colorBorder: 'rgba(91, 138, 153, 0.38)',
     places: [
-      { name: 'Minghe Ancient Town', city: 'Guanhaiwei, Cixi', text: 'Minghe Ancient Town is the oldest market town in Cixi and one of the birthplaces of China’s traditional medicine industry. It was founded during the Kaiyuan period of the Tang Dynasty.', pin: 'p1', coords: { left: '72%', top: '39%' }, photo: '/assets/images/water village1.jpg' },
-      { name: 'West Lake', city: 'Hangzhou, Zhejiang', text: 'West Lake is one of China’s most famous lakes, renowned for its willow shores, causeways, and pagoda reflections.', pin: 'p2', coords: { left: '48%', top: '38%' }, photo: '/assets/images/water village2.jpg' },
-      { name: 'Wuzhen Water Town', city: 'Tongxiang, Zhejiang', text: 'Walk the water lanes and discover wood carvings, stone arches and evening reflections across historic canals.', pin: 'p3', coords: { left: '56%', top: '28%' }, photo: '/assets/images/water village3.jpg' },
-      { name: 'Nanxun Ancient Town', city: 'Huzhou, Zhejiang', text: 'A tranquil historic water town featuring private gardens, waterways, and Western-Chinese fusion silk merchant villas.', pin: 'p4', coords: { left: '48%', top: '22%' }, photo: '/assets/images/water village4.jpg' }
+      { name: 'Minghe Ancient Town', city: 'Guanhaiwei, Cixi', text: 'Minghe Ancient Town is the oldest market town in Cixi and one of the birthplaces of China’s traditional medicine industry. It was founded during the Kaiyuan period of the Tang Dynasty.', pin: 'p1', coords: { left: '72%', top: '39%' }, photo: './assets/images/water village1.jpg' },
+      { name: 'West Lake', city: 'Hangzhou, Zhejiang', text: 'West Lake is one of China’s most famous lakes, renowned for its willow shores, causeways, and pagoda reflections.', pin: 'p2', coords: { left: '48%', top: '38%' }, photo: './assets/images/water village2.jpg' },
+      { name: 'Wuzhen Water Town', city: 'Tongxiang, Zhejiang', text: 'Walk the water lanes and discover wood carvings, stone arches and evening reflections across historic canals.', pin: 'p3', coords: { left: '56%', top: '28%' }, photo: './assets/images/water village3.jpg' },
+      { name: 'Nanxun Ancient Town', city: 'Huzhou, Zhejiang', text: 'A tranquil historic water town featuring private gardens, waterways, and Western-Chinese fusion silk merchant villas.', pin: 'p4', coords: { left: '48%', top: '22%' }, photo: './assets/images/water village4.jpg' }
     ]
   },
   {
@@ -58,10 +58,10 @@ export const COMBO_THEMES: ExploreTheme[] = [
     colorLight: 'rgba(94, 139, 104, 0.07)',
     colorBorder: 'rgba(94, 139, 104, 0.38)',
     places: [
-      { name: 'Meijiawu Tea Village', city: 'Hangzhou, Zhejiang', text: 'Terraced tea hills where you can brew fresh Longjing and savor authentic tea delicacies.', pin: 'p1', coords: { left: '46%', top: '40%' }, photo: '/assets/images/tea picking in hills1.jpg' },
-      { name: 'Longjing Village', city: 'Hangzhou, Zhejiang', text: 'The birthplace of West Lake Longjing tea surrounded by fresh mountain springs and bamboo trails.', pin: 'p2', coords: { left: '50%', top: '38%' }, photo: '/assets/images/tea picking in hills2.jpg' },
-      { name: 'Jingshan Temple Trail', city: 'Yuhang, Zhejiang', text: 'Ancient Zen tea ceremony traditions nestled in lush misty hills with traditional tea-whisking.', pin: 'p3', coords: { left: '42%', top: '33%' }, photo: '/assets/images/tea picking in hills3.jpg' },
-      { name: 'Songyang Tea Plantation', city: 'Lishui, Zhejiang', text: 'Rolling terraced plantation known as the tranquil secret garden of ancient Jiangnan.', pin: 'p4', coords: { left: '38%', top: '74%' }, photo: '/assets/images/tea picking in hills4.jpg' }
+      { name: 'Meijiawu Tea Village', city: 'Hangzhou, Zhejiang', text: 'Terraced tea hills where you can brew fresh Longjing and savor authentic tea delicacies.', pin: 'p1', coords: { left: '46%', top: '40%' }, photo: './assets/images/tea picking in hills1.jpg' },
+      { name: 'Longjing Village', city: 'Hangzhou, Zhejiang', text: 'The birthplace of West Lake Longjing tea surrounded by fresh mountain springs and bamboo trails.', pin: 'p2', coords: { left: '50%', top: '38%' }, photo: './assets/images/tea picking in hills2.jpg' },
+      { name: 'Jingshan Temple Trail', city: 'Yuhang, Zhejiang', text: 'Ancient Zen tea ceremony traditions nestled in lush misty hills with traditional tea-whisking.', pin: 'p3', coords: { left: '42%', top: '33%' }, photo: './assets/images/tea picking in hills3.jpg' },
+      { name: 'Songyang Tea Plantation', city: 'Lishui, Zhejiang', text: 'Rolling terraced plantation known as the tranquil secret garden of ancient Jiangnan.', pin: 'p4', coords: { left: '38%', top: '74%' }, photo: './assets/images/tea picking in hills4.jpg' }
     ]
   },
   {
@@ -76,10 +76,10 @@ export const COMBO_THEMES: ExploreTheme[] = [
     colorLight: 'rgba(78, 128, 85, 0.07)',
     colorBorder: 'rgba(78, 128, 85, 0.38)',
     places: [
-      { name: 'Songyang Tea Hills', city: 'Lishui, Zhejiang', text: 'Rolling terraced plantation known as the secret garden of ancient Jiangnan with scenic ridges.', pin: 'p1', coords: { left: '38%', top: '74%' }, photo: '/assets/images/tea picking in hills1.jpg' },
-      { name: 'Meijiawu Green Terraces', city: 'Hangzhou, Zhejiang', text: 'Historic green slopes offering hands-on spring tea harvest experiences in the hills.', pin: 'p2', coords: { left: '47%', top: '39%' }, photo: '/assets/images/tea picking in hills2.jpg' },
-      { name: 'Moganshan Mountain Tea', city: 'Huzhou, Zhejiang', text: 'High-elevation bamboo slopes with crisp air and boutique tea retreats in the mountains.', pin: 'p3', coords: { left: '44%', top: '26%' }, photo: '/assets/images/tea picking in hills3.jpg' },
-      { name: 'Pan’an Ecological Hills', city: 'Jinhua, Zhejiang', text: 'Lush alpine tea gardens shrouded in morning clouds and crisp organic mountain air.', pin: 'p4', coords: { left: '54%', top: '56%' }, photo: '/assets/images/tea picking in hills4.jpg' }
+      { name: 'Songyang Tea Hills', city: 'Lishui, Zhejiang', text: 'Rolling terraced plantation known as the secret garden of ancient Jiangnan with scenic ridges.', pin: 'p1', coords: { left: '38%', top: '74%' }, photo: './assets/images/tea picking in hills1.jpg' },
+      { name: 'Meijiawu Green Terraces', city: 'Hangzhou, Zhejiang', text: 'Historic green slopes offering hands-on spring tea harvest experiences in the hills.', pin: 'p2', coords: { left: '47%', top: '39%' }, photo: './assets/images/tea picking in hills2.jpg' },
+      { name: 'Moganshan Mountain Tea', city: 'Huzhou, Zhejiang', text: 'High-elevation bamboo slopes with crisp air and boutique tea retreats in the mountains.', pin: 'p3', coords: { left: '44%', top: '26%' }, photo: './assets/images/tea picking in hills3.jpg' },
+      { name: 'Pan’an Ecological Hills', city: 'Jinhua, Zhejiang', text: 'Lush alpine tea gardens shrouded in morning clouds and crisp organic mountain air.', pin: 'p4', coords: { left: '54%', top: '56%' }, photo: './assets/images/tea picking in hills4.jpg' }
     ]
   },
   {
@@ -94,10 +94,10 @@ export const COMBO_THEMES: ExploreTheme[] = [
     colorLight: 'rgba(74, 120, 136, 0.07)',
     colorBorder: 'rgba(74, 120, 136, 0.38)',
     places: [
-      { name: 'Bazi Bridge Canal', city: 'Shaoxing, Zhejiang', text: 'One of the oldest stone flyover bridge systems in ancient Chinese history.', pin: 'p1', coords: { left: '56%', top: '44%' }, photo: '/assets/images/Canal and Stone Bridges1.jpg' },
-      { name: 'Grand Canal Gongchen', city: 'Hangzhou, Zhejiang', text: 'The northern terminus of the Grand Canal lined with museums and tea houses.', pin: 'p2', coords: { left: '47%', top: '34%' }, photo: '/assets/images/Canal and Stone Bridges2.jpg' },
-      { name: 'Anchang Water Town', city: 'Keqiao, Zhejiang', text: 'Bustling waterways flanked by handcrafted sausage and rice wine workshops.', pin: 'p3', coords: { left: '53%', top: '42%' }, photo: '/assets/images/Canal and Stone Bridges3.jpg' },
-      { name: 'Taishun Covered Bridges', city: 'Wenzhou, Zhejiang', text: 'Ancient mortise-and-tenon wooden arch bridges spanning mountain streams with master craft.', pin: 'p4', coords: { left: '52%', top: '86%' }, photo: '/assets/images/Canal and Stone Bridges4.jpg' }
+      { name: 'Bazi Bridge Canal', city: 'Shaoxing, Zhejiang', text: 'One of the oldest stone flyover bridge systems in ancient Chinese history.', pin: 'p1', coords: { left: '56%', top: '44%' }, photo: './assets/images/Canal and Stone Bridges1.jpg' },
+      { name: 'Grand Canal Gongchen', city: 'Hangzhou, Zhejiang', text: 'The northern terminus of the Grand Canal lined with museums and tea houses.', pin: 'p2', coords: { left: '47%', top: '34%' }, photo: './assets/images/Canal and Stone Bridges2.jpg' },
+      { name: 'Anchang Water Town', city: 'Keqiao, Zhejiang', text: 'Bustling waterways flanked by handcrafted sausage and rice wine workshops.', pin: 'p3', coords: { left: '53%', top: '42%' }, photo: './assets/images/Canal and Stone Bridges3.jpg' },
+      { name: 'Taishun Covered Bridges', city: 'Wenzhou, Zhejiang', text: 'Ancient mortise-and-tenon wooden arch bridges spanning mountain streams with master craft.', pin: 'p4', coords: { left: '52%', top: '86%' }, photo: './assets/images/Canal and Stone Bridges4.jpg' }
     ]
   },
   {
@@ -112,10 +112,10 @@ export const COMBO_THEMES: ExploreTheme[] = [
     colorLight: 'rgba(153, 110, 74, 0.07)',
     colorBorder: 'rgba(153, 110, 74, 0.38)',
     places: [
-      { name: 'Chenjiapu Village', city: 'Songyang, Zhejiang', text: 'Cliffside cliff settlement with bookstores and sun-drying agricultural plazas.', pin: 'p1', coords: { left: '35%', top: '76%' }, photo: '/assets/images/Mountain Village and Dwellings1.jpg' },
-      { name: 'Moganshan Village', city: 'Deqing, Zhejiang', text: 'Lush bamboo slopes sheltering tranquil boutique eco-villas and craft cafes.', pin: 'p2', coords: { left: '43%', top: '27%' }, photo: '/assets/images/Mountain Village and Dwellings2.jpg' },
-      { name: 'Tiantai Mountain Valley', city: 'Taizhou, Zhejiang', text: 'Deep spiritual hills surrounded by cascading waterfalls and cedar trees.', pin: 'p3', coords: { left: '68%', top: '60%' }, photo: '/assets/images/Mountain Village and Dwellings3.png' },
-      { name: 'Xianju Gaoshan Village', city: 'Taizhou, Zhejiang', text: 'Pristine stone hamlet perched above the clouds with panoramic mountain views.', pin: 'p4', coords: { left: '62%', top: '68%' }, photo: '/assets/images/Mountain Village and Dwellings4.png' }
+      { name: 'Chenjiapu Village', city: 'Songyang, Zhejiang', text: 'Cliffside cliff settlement with bookstores and sun-drying agricultural plazas.', pin: 'p1', coords: { left: '35%', top: '76%' }, photo: './assets/images/Mountain Village and Dwellings1.jpg' },
+      { name: 'Moganshan Village', city: 'Deqing, Zhejiang', text: 'Lush bamboo slopes sheltering tranquil boutique eco-villas and craft cafes.', pin: 'p2', coords: { left: '43%', top: '27%' }, photo: './assets/images/Mountain Village and Dwellings2.jpg' },
+      { name: 'Tiantai Mountain Valley', city: 'Taizhou, Zhejiang', text: 'Deep spiritual hills surrounded by cascading waterfalls and cedar trees.', pin: 'p3', coords: { left: '68%', top: '60%' }, photo: './assets/images/Mountain Village and Dwellings3.png' },
+      { name: 'Xianju Gaoshan Village', city: 'Taizhou, Zhejiang', text: 'Pristine stone hamlet perched above the clouds with panoramic mountain views.', pin: 'p4', coords: { left: '62%', top: '68%' }, photo: './assets/images/Mountain Village and Dwellings4.png' }
     ]
   },
   {
@@ -130,10 +130,10 @@ export const COMBO_THEMES: ExploreTheme[] = [
     colorLight: 'rgba(179, 115, 59, 0.07)',
     colorBorder: 'rgba(179, 115, 59, 0.38)',
     places: [
-      { name: 'Lin’an Tianmu Hearth', city: 'Hangzhou, Zhejiang', text: 'Savory cured ham, wild mountain ferns and stone-ground tofu over firewood stoves.', pin: 'p1', coords: { left: '34%', top: '38%' }, photo: '/assets/images/Local Farm and Harvest Food1.png' },
-      { name: 'Suichang Earth Kitchen', city: 'Lishui, Zhejiang', text: 'Clay-pot stews and golden crisp sweet rice cakes over firewood stoves.', pin: 'p2', coords: { left: '32%', top: '72%' }, photo: '/assets/images/Local Farm and Harvest Food2.jpg' },
-      { name: 'Anji Bamboo Delights', city: 'Huzhou, Zhejiang', text: 'Tender springtime bamboo delicacies cooked in fresh bamboo tubes.', pin: 'p3', coords: { left: '38%', top: '25%' }, photo: '/assets/images/Local Farm and Harvest Food3.jpg' },
-      { name: 'Kaihua Hearth Kitchen', city: 'Quzhou, Zhejiang', text: 'Stream fish and mountain mushroom hot pots slow-cooked with hearthwood flavor.', pin: 'p4', coords: { left: '22%', top: '62%' }, photo: '/assets/images/Local Farm and Harvest Food4.png' }
+      { name: 'Lin’an Tianmu Hearth', city: 'Hangzhou, Zhejiang', text: 'Savory cured ham, wild mountain ferns and stone-ground tofu over firewood stoves.', pin: 'p1', coords: { left: '34%', top: '38%' }, photo: './assets/images/Local Farm and Harvest Food1.png' },
+      { name: 'Suichang Earth Kitchen', city: 'Lishui, Zhejiang', text: 'Clay-pot stews and golden crisp sweet rice cakes over firewood stoves.', pin: 'p2', coords: { left: '32%', top: '72%' }, photo: './assets/images/Local Farm and Harvest Food2.jpg' },
+      { name: 'Anji Bamboo Delights', city: 'Huzhou, Zhejiang', text: 'Tender springtime bamboo delicacies cooked in fresh bamboo tubes.', pin: 'p3', coords: { left: '38%', top: '25%' }, photo: './assets/images/Local Farm and Harvest Food3.jpg' },
+      { name: 'Kaihua Hearth Kitchen', city: 'Quzhou, Zhejiang', text: 'Stream fish and mountain mushroom hot pots slow-cooked with hearthwood flavor.', pin: 'p4', coords: { left: '22%', top: '62%' }, photo: './assets/images/Local Farm and Harvest Food4.png' }
     ]
   },
   {
@@ -148,10 +148,10 @@ export const COMBO_THEMES: ExploreTheme[] = [
     colorLight: 'rgba(59, 122, 158, 0.07)',
     colorBorder: 'rgba(59, 122, 158, 0.38)',
     places: [
-      { name: 'Shenjiamen Port', city: 'Zhoushan, Zhejiang', text: 'The largest seafood night market harbor in Asia facing the ocean.', pin: 'p1', coords: { left: '85%', top: '42%' }, photo: '/assets/images/Coastal Seafood1.jpg' },
-      { name: 'Shipu Fishing Town', city: 'Xiangshan, Zhejiang', text: 'Cobblestone seafood streets overlooking bustling fishing fleets.', pin: 'p2', coords: { left: '79%', top: '56%' }, photo: '/assets/images/Coastal Seafood2.jpg' },
-      { name: 'Shengsi Islands', city: 'Zhoushan, Zhejiang', text: 'Mussel farm archipelago bathed in azure blue waves and sea breezes.', pin: 'p3', coords: { left: '88%', top: '26%' }, photo: '/assets/images/Coastal Seafood3.jpg' },
-      { name: 'Dongtou Island Harbor', city: 'Wenzhou, Zhejiang', text: 'Colorful coastal fishing village with fresh ocean harvest and island seafood stalls.', pin: 'p4', coords: { left: '72%', top: '82%' }, photo: '/assets/images/Coastal Seafood4.jpeg' }
+      { name: 'Shenjiamen Port', city: 'Zhoushan, Zhejiang', text: 'The largest seafood night market harbor in Asia facing the ocean.', pin: 'p1', coords: { left: '85%', top: '42%' }, photo: './assets/images/Coastal Seafood1.jpg' },
+      { name: 'Shipu Fishing Town', city: 'Xiangshan, Zhejiang', text: 'Cobblestone seafood streets overlooking bustling fishing fleets.', pin: 'p2', coords: { left: '79%', top: '56%' }, photo: './assets/images/Coastal Seafood2.jpg' },
+      { name: 'Shengsi Islands', city: 'Zhoushan, Zhejiang', text: 'Mussel farm archipelago bathed in azure blue waves and sea breezes.', pin: 'p3', coords: { left: '88%', top: '26%' }, photo: './assets/images/Coastal Seafood3.jpg' },
+      { name: 'Dongtou Island Harbor', city: 'Wenzhou, Zhejiang', text: 'Colorful coastal fishing village with fresh ocean harvest and island seafood stalls.', pin: 'p4', coords: { left: '72%', top: '82%' }, photo: './assets/images/Coastal Seafood4.jpeg' }
     ]
   },
   {
@@ -166,10 +166,10 @@ export const COMBO_THEMES: ExploreTheme[] = [
     colorLight: 'rgba(69, 133, 120, 0.07)',
     colorBorder: 'rgba(69, 133, 120, 0.38)',
     places: [
-      { name: 'Qiandao Lake', city: 'Chun’an, Zhejiang', text: 'Over a thousand emerald islands scattered across sparkling blue waters.', pin: 'p1', coords: { left: '26%', top: '48%' }, photo: '/assets/images/Nature Sceneries1.jpg' },
-      { name: 'Xianju Shenxianju', city: 'Taizhou, Zhejiang', text: 'Soaring cliff pinnacles rising above misty cloud forests and suspension bridges.', pin: 'p2', coords: { left: '62%', top: '66%' }, photo: '/assets/images/Nature Sceneries2.jpg' },
-      { name: 'Yandang Mountain Lakes', city: 'Wenzhou, Zhejiang', text: 'Spectacular volcanic peaks, hanging temples and crystal mountain pools.', pin: 'p3', coords: { left: '68%', top: '78%' }, photo: '/assets/images/Nature Sceneries3.jpg' },
-      { name: 'Nanxi River Valley', city: 'Wenzhou, Zhejiang', text: 'Pristine emerald river winding between ancient cobblestone villages and sheer gorges.', pin: 'p4', coords: { left: '58%', top: '78%' }, photo: '/assets/images/Nature Sceneries4.jpg' }
+      { name: 'Qiandao Lake', city: 'Chun’an, Zhejiang', text: 'Over a thousand emerald islands scattered across sparkling blue waters.', pin: 'p1', coords: { left: '26%', top: '48%' }, photo: './assets/images/Nature Sceneries1.jpg' },
+      { name: 'Xianju Shenxianju', city: 'Taizhou, Zhejiang', text: 'Soaring cliff pinnacles rising above misty cloud forests and suspension bridges.', pin: 'p2', coords: { left: '62%', top: '66%' }, photo: './assets/images/Nature Sceneries2.jpg' },
+      { name: 'Yandang Mountain Lakes', city: 'Wenzhou, Zhejiang', text: 'Spectacular volcanic peaks, hanging temples and crystal mountain pools.', pin: 'p3', coords: { left: '68%', top: '78%' }, photo: './assets/images/Nature Sceneries3.jpg' },
+      { name: 'Nanxi River Valley', city: 'Wenzhou, Zhejiang', text: 'Pristine emerald river winding between ancient cobblestone villages and sheer gorges.', pin: 'p4', coords: { left: '58%', top: '78%' }, photo: './assets/images/Nature Sceneries4.jpg' }
     ]
   },
   {
@@ -184,10 +184,10 @@ export const COMBO_THEMES: ExploreTheme[] = [
     colorLight: 'rgba(122, 102, 120, 0.07)',
     colorBorder: 'rgba(122, 102, 120, 0.38)',
     places: [
-      { name: 'Nanxun Jiaye Garden', city: 'Huzhou, Zhejiang', text: 'Harmonious blend of traditional courtyard mansions and Western-style villas.', pin: 'p1', coords: { left: '49%', top: '22%' }, photo: '/assets/images/water village4.jpg' },
-      { name: 'Wuzhen West Gate', city: 'Jiaxing, Zhejiang', text: 'Preserved water town residences with wood carvings and stone docks.', pin: 'p2', coords: { left: '57%', top: '29%' }, photo: '/assets/images/water village3.jpg' },
-      { name: 'Shaoxing Lu Xun Native Place', city: 'Shaoxing, Zhejiang', text: 'Traditional black-tiled Jiangnan manor houses beside stone waterways.', pin: 'p3', coords: { left: '56%', top: '45%' }, photo: '/assets/images/Canal and Stone Bridges1.jpg' },
-      { name: 'Ningbo Tianyi Pavilion', city: 'Ningbo, Zhejiang', text: 'China’s oldest existing private library with classical rockeries and tranquil ponds.', pin: 'p4', coords: { left: '74%', top: '43%' }, photo: '/assets/images/Mountain Village and Dwellings1.jpg' }
+      { name: 'Nanxun Jiaye Garden', city: 'Huzhou, Zhejiang', text: 'Harmonious blend of traditional courtyard mansions and Western-style villas.', pin: 'p1', coords: { left: '49%', top: '22%' }, photo: './assets/images/water village4.jpg' },
+      { name: 'Wuzhen West Gate', city: 'Jiaxing, Zhejiang', text: 'Preserved water town residences with wood carvings and stone docks.', pin: 'p2', coords: { left: '57%', top: '29%' }, photo: './assets/images/water village3.jpg' },
+      { name: 'Shaoxing Lu Xun Native Place', city: 'Shaoxing, Zhejiang', text: 'Traditional black-tiled Jiangnan manor houses beside stone waterways.', pin: 'p3', coords: { left: '56%', top: '45%' }, photo: './assets/images/Canal and Stone Bridges1.jpg' },
+      { name: 'Ningbo Tianyi Pavilion', city: 'Ningbo, Zhejiang', text: 'China’s oldest existing private library with classical rockeries and tranquil ponds.', pin: 'p4', coords: { left: '74%', top: '43%' }, photo: './assets/images/Mountain Village and Dwellings1.jpg' }
     ]
   }
 ];
@@ -204,10 +204,10 @@ export const SINGLE_ELEMENT_THEMES: Record<string, ExploreTheme> = {
     colorLight: 'rgba(80, 130, 152, 0.07)',
     colorBorder: 'rgba(80, 130, 152, 0.38)',
     places: [
-      { name: 'West Lake Ruan Gong Dun', city: 'Hangzhou, Zhejiang', text: 'Gentle ripples, willow shores, and evening reflections of the Three Pools Mirroring the Moon.', pin: 'p1', coords: { left: '48%', top: '38%' }, photo: '/assets/images/Nature Sceneries1.jpg' },
-      { name: 'East Lake (Donghu)', city: 'Shaoxing, Zhejiang', text: 'Sheer quarried cliff walls rising directly out of tranquil emerald waters.', pin: 'p2', coords: { left: '58%', top: '46%' }, photo: '/assets/images/Nature Sceneries2.jpg' },
-      { name: 'Nanhu Lake', city: 'Jiaxing, Zhejiang', text: 'Historic misty island pavilion surrounded by serene Jiangnan lotus waterways.', pin: 'p3', coords: { left: '62%', top: '28%' }, photo: '/assets/images/Nature Sceneries3.jpg' },
-      { name: 'Xianghu Lake', city: 'Xiaoshan, Zhejiang', text: 'Cradle of ancient Kuahuqiao canoe culture nestled beside rolling green hills.', pin: 'p4', coords: { left: '52%', top: '40%' }, photo: '/assets/images/Nature Sceneries4.jpg' }
+      { name: 'West Lake Ruan Gong Dun', city: 'Hangzhou, Zhejiang', text: 'Gentle ripples, willow shores, and evening reflections of the Three Pools Mirroring the Moon.', pin: 'p1', coords: { left: '48%', top: '38%' }, photo: './assets/images/Nature Sceneries1.jpg' },
+      { name: 'East Lake (Donghu)', city: 'Shaoxing, Zhejiang', text: 'Sheer quarried cliff walls rising directly out of tranquil emerald waters.', pin: 'p2', coords: { left: '58%', top: '46%' }, photo: './assets/images/Nature Sceneries2.jpg' },
+      { name: 'Nanhu Lake', city: 'Jiaxing, Zhejiang', text: 'Historic misty island pavilion surrounded by serene Jiangnan lotus waterways.', pin: 'p3', coords: { left: '62%', top: '28%' }, photo: './assets/images/Nature Sceneries3.jpg' },
+      { name: 'Xianghu Lake', city: 'Xiaoshan, Zhejiang', text: 'Cradle of ancient Kuahuqiao canoe culture nestled beside rolling green hills.', pin: 'p4', coords: { left: '52%', top: '40%' }, photo: './assets/images/Nature Sceneries4.jpg' }
     ]
   },
   bridge: {
@@ -221,10 +221,10 @@ export const SINGLE_ELEMENT_THEMES: Record<string, ExploreTheme> = {
     colorLight: 'rgba(96, 115, 128, 0.07)',
     colorBorder: 'rgba(96, 115, 128, 0.38)',
     places: [
-      { name: 'Bazi Ancient Flyover Bridge', city: 'Shaoxing, Zhejiang', text: 'One of the earliest preserved urban bridge hubs dating back to the Song Dynasty.', pin: 'p1', coords: { left: '55%', top: '45%' }, photo: '/assets/images/Canal and Stone Bridges1.jpg' },
-      { name: 'Gongchen Bridge', city: 'Hangzhou, Zhejiang', text: 'The towering landmark triple-arch stone bridge marking the southern end of the Grand Canal.', pin: 'p2', coords: { left: '47%', top: '34%' }, photo: '/assets/images/Canal and Stone Bridges2.jpg' },
-      { name: 'Taishun Covered Bridges', city: 'Wenzhou, Zhejiang', text: 'Masterpieces of ancient mortise-and-tenon wooden arch bridges spanning mountain streams.', pin: 'p3', coords: { left: '52%', top: '86%' }, photo: '/assets/images/Canal and Stone Bridges4.jpg' },
-      { name: 'Wuzhen Tongji Bridge', city: 'Tongxiang, Zhejiang', text: 'Famous Bridge-in-Bridge twin water landmark where two canals intersect.', pin: 'p4', coords: { left: '57%', top: '29%' }, photo: '/assets/images/Canal and Stone Bridges3.jpg' }
+      { name: 'Bazi Ancient Flyover Bridge', city: 'Shaoxing, Zhejiang', text: 'One of the earliest preserved urban bridge hubs dating back to the Song Dynasty.', pin: 'p1', coords: { left: '55%', top: '45%' }, photo: './assets/images/Canal and Stone Bridges1.jpg' },
+      { name: 'Gongchen Bridge', city: 'Hangzhou, Zhejiang', text: 'The towering landmark triple-arch stone bridge marking the southern end of the Grand Canal.', pin: 'p2', coords: { left: '47%', top: '34%' }, photo: './assets/images/Canal and Stone Bridges2.jpg' },
+      { name: 'Taishun Covered Bridges', city: 'Wenzhou, Zhejiang', text: 'Masterpieces of ancient mortise-and-tenon wooden arch bridges spanning mountain streams.', pin: 'p3', coords: { left: '52%', top: '86%' }, photo: './assets/images/Canal and Stone Bridges4.jpg' },
+      { name: 'Wuzhen Tongji Bridge', city: 'Tongxiang, Zhejiang', text: 'Famous Bridge-in-Bridge twin water landmark where two canals intersect.', pin: 'p4', coords: { left: '57%', top: '29%' }, photo: './assets/images/Canal and Stone Bridges3.jpg' }
     ]
   },
   tea: {
@@ -238,10 +238,10 @@ export const SINGLE_ELEMENT_THEMES: Record<string, ExploreTheme> = {
     colorLight: 'rgba(88, 133, 94, 0.07)',
     colorBorder: 'rgba(88, 133, 94, 0.38)',
     places: [
-      { name: 'Longjing Village & Springs', city: 'Hangzhou, Zhejiang', text: 'The sacred heartland of Dragon Well tea culture surrounded by green terraced hills.', pin: 'p1', coords: { left: '49%', top: '39%' }, photo: '/assets/images/tea picking in hills2.jpg' },
-      { name: 'Jingshan Zen Tea Plantation', city: 'Yuhang, Zhejiang', text: 'The birthplace of classic Song Dynasty tea-whisking ceremonies.', pin: 'p2', coords: { left: '42%', top: '33%' }, photo: '/assets/images/tea picking in hills1.jpg' },
-      { name: 'Songyang Historic Tea Market', city: 'Lishui, Zhejiang', text: 'One of the largest green tea trading centers nestled amidst idyllic southern Zhejiang hills.', pin: 'p3', coords: { left: '39%', top: '75%' }, photo: '/assets/images/tea picking in hills3.jpg' },
-      { name: 'Meijiawu Ancient Tea Trails', city: 'Hangzhou, Zhejiang', text: 'Lush village teahouses nestled along winding stone mountain paths.', pin: 'p4', coords: { left: '46%', top: '41%' }, photo: '/assets/images/tea picking in hills4.jpg' }
+      { name: 'Longjing Village & Springs', city: 'Hangzhou, Zhejiang', text: 'The sacred heartland of Dragon Well tea culture surrounded by green terraced hills.', pin: 'p1', coords: { left: '49%', top: '39%' }, photo: './assets/images/tea picking in hills2.jpg' },
+      { name: 'Jingshan Zen Tea Plantation', city: 'Yuhang, Zhejiang', text: 'The birthplace of classic Song Dynasty tea-whisking ceremonies.', pin: 'p2', coords: { left: '42%', top: '33%' }, photo: './assets/images/tea picking in hills1.jpg' },
+      { name: 'Songyang Historic Tea Market', city: 'Lishui, Zhejiang', text: 'One of the largest green tea trading centers nestled amidst idyllic southern Zhejiang hills.', pin: 'p3', coords: { left: '39%', top: '75%' }, photo: './assets/images/tea picking in hills3.jpg' },
+      { name: 'Meijiawu Ancient Tea Trails', city: 'Hangzhou, Zhejiang', text: 'Lush village teahouses nestled along winding stone mountain paths.', pin: 'p4', coords: { left: '46%', top: '41%' }, photo: './assets/images/tea picking in hills4.jpg' }
     ]
   },
   rice: {
@@ -255,10 +255,10 @@ export const SINGLE_ELEMENT_THEMES: Record<string, ExploreTheme> = {
     colorLight: 'rgba(175, 119, 66, 0.07)',
     colorBorder: 'rgba(175, 119, 66, 0.38)',
     places: [
-      { name: 'Yunhe Rice Terraces', city: 'Lishui, Zhejiang', text: 'Spectacular thousand-year-old terraced paddy fields sculpted across mist-kissed hills.', pin: 'p1', coords: { left: '36%', top: '80%' }, photo: '/assets/images/Local Farm and Harvest Food1.png' },
-      { name: 'Shaoxing Rice Wine Heritage Museum', city: 'Shaoxing, Zhejiang', text: 'Centuries-old brewing workshops producing fragrant amber rice wine.', pin: 'p2', coords: { left: '57%', top: '44%' }, photo: '/assets/images/Local Farm and Harvest Food2.jpg' },
-      { name: 'Jiashan Paddy Heritage Park', city: 'Jiaxing, Zhejiang', text: 'Vast agricultural heartland renowned for high-yield sweet water rice and harvest culture.', pin: 'p3', coords: { left: '66%', top: '25%' }, photo: '/assets/images/Local Farm and Harvest Food3.jpg' },
-      { name: 'Nanxun Rice Cake & Pastry Street', city: 'Huzhou, Zhejiang', text: 'Artisan rice cake makers steaming traditional Dingsheng sweet cakes.', pin: 'p4', coords: { left: '49%', top: '23%' }, photo: '/assets/images/Local Farm and Harvest Food4.png' }
+      { name: 'Yunhe Rice Terraces', city: 'Lishui, Zhejiang', text: 'Spectacular thousand-year-old terraced paddy fields sculpted across mist-kissed hills.', pin: 'p1', coords: { left: '36%', top: '80%' }, photo: './assets/images/Local Farm and Harvest Food1.png' },
+      { name: 'Shaoxing Rice Wine Heritage Museum', city: 'Shaoxing, Zhejiang', text: 'Centuries-old brewing workshops producing fragrant amber rice wine.', pin: 'p2', coords: { left: '57%', top: '44%' }, photo: './assets/images/Local Farm and Harvest Food2.jpg' },
+      { name: 'Jiashan Paddy Heritage Park', city: 'Jiaxing, Zhejiang', text: 'Vast agricultural heartland renowned for high-yield sweet water rice and harvest culture.', pin: 'p3', coords: { left: '66%', top: '25%' }, photo: './assets/images/Local Farm and Harvest Food3.jpg' },
+      { name: 'Nanxun Rice Cake & Pastry Street', city: 'Huzhou, Zhejiang', text: 'Artisan rice cake makers steaming traditional Dingsheng sweet cakes.', pin: 'p4', coords: { left: '49%', top: '23%' }, photo: './assets/images/Local Farm and Harvest Food4.png' }
     ]
   },
   mountain: {
@@ -272,10 +272,10 @@ export const SINGLE_ELEMENT_THEMES: Record<string, ExploreTheme> = {
     colorLight: 'rgba(80, 118, 99, 0.07)',
     colorBorder: 'rgba(80, 118, 99, 0.38)',
     places: [
-      { name: 'Yandang Mountain Peaks', city: 'Wenzhou, Zhejiang', text: 'Spectacular coastal volcanic pinnacles famous for hanging temples and sheer cliffs.', pin: 'p1', coords: { left: '69%', top: '79%' }, photo: '/assets/images/Mountain Village and Dwellings1.jpg' },
-      { name: 'Moganshan Bamboo Mountain', city: 'Huzhou, Zhejiang', text: 'Misty bamboo ridges renowned since the early 1900s as a tranquil mountain sanctuary.', pin: 'p2', coords: { left: '44%', top: '27%' }, photo: '/assets/images/Mountain Village and Dwellings2.jpg' },
-      { name: 'Tiantai Mountain Canyons', city: 'Taizhou, Zhejiang', text: 'Spiritual mountain ridges with cascading waterfalls and ancient stone bridges.', pin: 'p3', coords: { left: '67%', top: '61%' }, photo: '/assets/images/Mountain Village and Dwellings3.png' },
-      { name: 'Xianju Shenxianju Cliffs', city: 'Taizhou, Zhejiang', text: 'Dramatic limestone needles rising like fairy towers through sea-of-clouds.', pin: 'p4', coords: { left: '61%', top: '67%' }, photo: '/assets/images/Mountain Village and Dwellings4.png' }
+      { name: 'Yandang Mountain Peaks', city: 'Wenzhou, Zhejiang', text: 'Spectacular coastal volcanic pinnacles famous for hanging temples and sheer cliffs.', pin: 'p1', coords: { left: '69%', top: '79%' }, photo: './assets/images/Mountain Village and Dwellings1.jpg' },
+      { name: 'Moganshan Bamboo Mountain', city: 'Huzhou, Zhejiang', text: 'Misty bamboo ridges renowned since the early 1900s as a tranquil mountain sanctuary.', pin: 'p2', coords: { left: '44%', top: '27%' }, photo: './assets/images/Mountain Village and Dwellings2.jpg' },
+      { name: 'Tiantai Mountain Canyons', city: 'Taizhou, Zhejiang', text: 'Spiritual mountain ridges with cascading waterfalls and ancient stone bridges.', pin: 'p3', coords: { left: '67%', top: '61%' }, photo: './assets/images/Mountain Village and Dwellings3.png' },
+      { name: 'Xianju Shenxianju Cliffs', city: 'Taizhou, Zhejiang', text: 'Dramatic limestone needles rising like fairy towers through sea-of-clouds.', pin: 'p4', coords: { left: '61%', top: '67%' }, photo: './assets/images/Mountain Village and Dwellings4.png' }
     ]
   },
   building: {
@@ -289,10 +289,10 @@ export const SINGLE_ELEMENT_THEMES: Record<string, ExploreTheme> = {
     colorLight: 'rgba(119, 99, 110, 0.07)',
     colorBorder: 'rgba(119, 99, 110, 0.38)',
     places: [
-      { name: 'Nanxun Zhang Shiming Mansion', city: 'Huzhou, Zhejiang', text: 'Exquisite merchant compound marrying traditional wood carvings with French glasswork.', pin: 'p1', coords: { left: '49%', top: '22%' }, photo: '/assets/images/Mountain Village and Dwellings1.jpg' },
-      { name: 'Shaoxing Lu Xun Native Place', city: 'Shaoxing, Zhejiang', text: 'Classic water town residential courtyard featuring stone courtyards and study pavilions.', pin: 'p2', coords: { left: '56%', top: '45%' }, photo: '/assets/images/water village3.jpg' },
-      { name: 'Wuzhen Ancient Water Pavilion Residences', city: 'Jiaxing, Zhejiang', text: 'Pillared water-side stilt residences constructed right over the flowing waterways.', pin: 'p3', coords: { left: '57%', top: '29%' }, photo: '/assets/images/water village4.jpg' },
-      { name: 'Ningbo Baoguo Temple', city: 'Ningbo, Zhejiang', text: 'Rare Northern Song Dynasty timber structure with elaborate dougong bracket architecture.', pin: 'p4', coords: { left: '73%', top: '40%' }, photo: '/assets/images/Canal and Stone Bridges1.jpg' }
+      { name: 'Nanxun Zhang Shiming Mansion', city: 'Huzhou, Zhejiang', text: 'Exquisite merchant compound marrying traditional wood carvings with French glasswork.', pin: 'p1', coords: { left: '49%', top: '22%' }, photo: './assets/images/Mountain Village and Dwellings1.jpg' },
+      { name: 'Shaoxing Lu Xun Native Place', city: 'Shaoxing, Zhejiang', text: 'Classic water town residential courtyard featuring stone courtyards and study pavilions.', pin: 'p2', coords: { left: '56%', top: '45%' }, photo: './assets/images/water village3.jpg' },
+      { name: 'Wuzhen Ancient Water Pavilion Residences', city: 'Jiaxing, Zhejiang', text: 'Pillared water-side stilt residences constructed right over the flowing waterways.', pin: 'p3', coords: { left: '57%', top: '29%' }, photo: './assets/images/water village4.jpg' },
+      { name: 'Ningbo Baoguo Temple', city: 'Ningbo, Zhejiang', text: 'Rare Northern Song Dynasty timber structure with elaborate dougong bracket architecture.', pin: 'p4', coords: { left: '73%', top: '40%' }, photo: './assets/images/Canal and Stone Bridges1.jpg' }
     ]
   }
 };
@@ -309,10 +309,10 @@ export const UNMATCHED_THEME: ExploreTheme = {
   colorLight: 'rgba(107, 162, 215, 0.07)',
   colorBorder: 'rgba(107, 162, 215, 0.38)',
   places: [
-    { name: 'West Lake Landscape', city: 'Hangzhou, Zhejiang', text: 'A UNESCO World Heritage cultural landscape blending lakes, hills, pagodas, and tea gardens.', pin: 'p1', coords: { left: '48%', top: '38%' }, photo: '/assets/images/No exact combination match found.png' },
-    { name: 'Shaoxing Ancient City', city: 'Shaoxing, Zhejiang', text: 'An enchanting network of water lanes, calligraphy gardens, and stone bridges.', pin: 'p2', coords: { left: '56%', top: '44%' }, photo: '/assets/images/No exact combination match found.png' },
-    { name: 'Songyang Ancient Villages', city: 'Lishui, Zhejiang', text: 'Picturesque mountain settlements preserving centuries of living rural tradition.', pin: 'p3', coords: { left: '36%', top: '75%' }, photo: '/assets/images/No exact combination match found.png' },
-    { name: 'Wuzhen Water Canal', city: 'Tongxiang, Zhejiang', text: 'Serene stone bridges and lantern-lit waterfront homes along historical waterways.', pin: 'p4', coords: { left: '56%', top: '28%' }, photo: '/assets/images/No exact combination match found.png' }
+    { name: 'West Lake Landscape', city: 'Hangzhou, Zhejiang', text: 'A UNESCO World Heritage cultural landscape blending lakes, hills, pagodas, and tea gardens.', pin: 'p1', coords: { left: '48%', top: '38%' }, photo: './assets/images/No exact combination match found.png' },
+    { name: 'Shaoxing Ancient City', city: 'Shaoxing, Zhejiang', text: 'An enchanting network of water lanes, calligraphy gardens, and stone bridges.', pin: 'p2', coords: { left: '56%', top: '44%' }, photo: './assets/images/No exact combination match found.png' },
+    { name: 'Songyang Ancient Villages', city: 'Lishui, Zhejiang', text: 'Picturesque mountain settlements preserving centuries of living rural tradition.', pin: 'p3', coords: { left: '36%', top: '75%' }, photo: './assets/images/No exact combination match found.png' },
+    { name: 'Wuzhen Water Canal', city: 'Tongxiang, Zhejiang', text: 'Serene stone bridges and lantern-lit waterfront homes along historical waterways.', pin: 'p4', coords: { left: '56%', top: '28%' }, photo: './assets/images/No exact combination match found.png' }
   ]
 };
 
@@ -1884,7 +1884,7 @@ export const ExplorePage: React.FC<ExplorePageProps> = ({
                           onError={(e) => {
                             const target = e.currentTarget as HTMLImageElement;
                             if (!target.src.includes('water%20village1.jpg') && !target.src.includes('village-photo.png')) {
-                              target.src = '/assets/images/water%20village1.jpg';
+                              target.src = './assets/images/water%20village1.jpg';
                             } else {
                               target.src = 'assets/village-photo.png';
                             }

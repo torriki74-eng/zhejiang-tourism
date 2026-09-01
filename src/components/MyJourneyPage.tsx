@@ -103,7 +103,7 @@ const INITIAL_COLLAGE_ITEMS: CollageItem[] = [
     id: 'photo-water-town',
     type: 'photo',
     title: '',
-    imageSrc: '/assets/images/No exact combination match found.png',
+    imageSrc: './assets/images/No exact combination match found.png',
     x: 60,
     y: 15,
     rotation: -4,
@@ -416,7 +416,7 @@ export const MyJourneyPage: React.FC<MyJourneyPageProps> = ({
                                 onError={(e) => {
                                   const target = e.currentTarget as HTMLImageElement;
                                   if (!target.src.includes('village-photo.png')) {
-                                    target.src = '/assets/images/water%20village1.jpg';
+                                    target.src = './assets/images/water%20village1.jpg';
                                   }
                                 }}
                               />
